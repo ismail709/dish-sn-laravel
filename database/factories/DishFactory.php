@@ -18,7 +18,8 @@ class DishFactory extends Factory
     {
         return [
             "name" => fake()->name(),
-            "description" => fake()->paragraph()
+            "description" => fake()->paragraph(),
+            "image" => fake()->randomElement(["images/demo.jpg", "images/demo2.jpg", "images/demo3.jpg", "images/demo4.jpg", "images/demo5.jpg", "images/demo6.jpg", "images/demo7.jpg", "images/demo8.jpg", "images/demo9.jpg", "images/demo10.jpg"])
         ];
     }
 }

@@ -20,3 +20,14 @@ user_favorite_dish
 
 Dish
 User
+
+
+# TODO
+
+- design and code components
+    - modals (check)
+    - buttons (check)
+    - alerts (check)
+    - inputs (in progress)
+    - cards (todo)
+    - navbar (todo)

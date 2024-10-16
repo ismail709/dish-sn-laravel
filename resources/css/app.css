@@ -1,3 +1,120 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/resources/fonts/Montserrat-Italic-VariableFont_wght.ttf")
+        format("truetype");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/resources/fonts/Montserrat-VariableFont_wght.ttf")
+        format("truetype");
+    font-style: normal;
+}
+
+:root {
+    /* font vars */
+    --ff-primary: "Montserrat", sans-serif;
+    --fs-800: 72px;
+    --fs-700: 60px;
+    --fs-600: 48px;
+    --fs-500: 36px;
+    --fs-400: 30px;
+    --fs-300: 24px;
+    --fs-200: 20px;
+    --fs-100: 18px;
+    --fs-body: 16px;
+    --fs-sm: 14px;
+    --fs-xs: 12px;
+    /* set the default font */
+    font-family: var(--ff-primary);
+    /* colors vars */
+    /* primary */
+    --color-primary-900: #3c3c3c;
+    --color-primary-800: #606060;
+    --color-primary-700: #818181;
+    --color-primary-600: #979797;
+    --color-primary-500: #c2c2c2;
+    --color-primary-400: #dedede;
+    --color-primary-300: #f0f0f0;
+    --color-primary-200: #f5f5f5;
+    --color-primary-100: #fafafa;
+    --color-primary-50: #ffffff;
+    /* SUCCESS */
+    --color-success-900: #1b5e20;
+    --color-success-800: #2e7d32;
+    --color-success-700: #388e3c;
+    --color-success-600: #43a047;
+    --color-success-500: #4caf50;
+    --color-success-400: #66bb6a;
+    --color-success-300: #81c784;
+    --color-success-200: #a5d6a7;
+    --color-success-100: #c8e6c9;
+    --color-success-50: #e8f5e9;
+    /* INFO */
+    --color-info-900: #0d47a1;
+    --color-info-800: #1565c0;
+    --color-info-700: #1976d2;
+    --color-info-600: #1e88e5;
+    --color-info-500: #2196f3;
+    --color-info-400: #42a5f5;
+    --color-info-300: #64b5f6;
+    --color-info-200: #90caf9;
+    --color-info-100: #bbdefb;
+    --color-info-50: #e3f2fd;
+    /* DANGER */
+    --color-danger-900: #b71c1c;
+    --color-danger-800: #c62828;
+    --color-danger-700: #d32f2f;
+    --color-danger-600: #e53935;
+    --color-danger-500: #f44336;
+    --color-danger-400: #ef5350;
+    --color-danger-300: #e57373;
+    --color-danger-200: #ef9a9a;
+    --color-danger-100: #ffcdd2;
+    --color-danger-50: #ffebee;
+    /* WARNING */
+    --color-warning-900: #f57f17;
+    --color-warning-800: #f9a825;
+    --color-warning-700: #fbc02d;
+    --color-warning-600: #fdd835;
+    --color-warning-500: #ffeb3b;
+    --color-warning-400: #ffee58;
+    --color-warning-300: #fff176;
+    --color-warning-200: #fff59d;
+    --color-warning-100: #fff9c4;
+    --color-warning-50: #fffde7;
+    /* NEUTRAL */
+    --color-neutral-900: #3c3c3c;
+    --color-neutral-800: #606060;
+    --color-neutral-700: #818181;
+    --color-neutral-600: #979797;
+    --color-neutral-500: #c2c2c2;
+    --color-neutral-400: #dedede;
+    --color-neutral-300: #f0f0f0;
+    --color-neutral-200: #f5f5f5;
+    --color-neutral-100: #fafafa;
+    --color-neutral-50: #ffffff;
+    /* SPACING */
+    --sp-base: 16px;
+    --sp-1: calc(0.25 * var(--sp-base));
+    --sp-2: calc(0.5 * var(--sp-base));
+    --sp-3: calc(0.75 * var(--sp-base));
+    --sp-4: calc(1 * var(--sp-base));
+    --sp-5: calc(1.5 * var(--sp-base));
+    --sp-6: calc(2 * var(--sp-base));
+    --sp-7: calc(3 * var(--sp-base));
+    --sp-8: calc(4 * var(--sp-base));
+    --sp-9: calc(6 * var(--sp-base));
+    --sp-10: calc(8 * var(--sp-base));
+    --sp-11: calc(12 * var(--sp-base));
+    --sp-12: calc(16 * var(--sp-base));
+    --sp-13: calc(24 * var(--sp-base));
+    --sp-14: calc(32 * var(--sp-base));
+    --sp-15: calc(40 * var(--sp-base));
+    --sp-16: calc(48 * var(--sp-base));
+}

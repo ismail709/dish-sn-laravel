@@ -9,7 +9,7 @@ class Dish extends Model
 {
     use HasFactory;
 
-    protected $fillable = ["name", "description"];
+    protected $fillable = ["name", "description", 'image'];
 
     // liked Dishes
     public function likedByUsers()

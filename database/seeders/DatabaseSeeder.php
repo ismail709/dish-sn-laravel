@@ -14,12 +14,5 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         $this->call([UserSeeder::class, DishSeeder::class]);
-
-        $users = User::all();
-        $dishes = Dish::all();
-
-        $dishes->each(function ($dish) use ($users) {
-            $users->first()->likedDishes()->attach($dish->id);
-        });
     }
 }
